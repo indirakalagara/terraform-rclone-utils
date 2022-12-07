@@ -6,7 +6,7 @@ echo "TYPE = ${TYPE}"
 $BIN_DIR/rclone config create \
     ${NAME} \
     ${TYPE} \
-    provider=${PROVIDER} \
+    provider=${STORAGE_PROVIDER} \
     env_auth=${ENV_AUTH} \
     region=${REGION} \
     access_key_id=${ACCESS_KEY_ID} \
