@@ -2,7 +2,7 @@
 
 echo "TYPE = ${TYPE}"
 
-# Kick off cluster creation
+
 $BIN_DIR/rclone config create \
     ${NAME} \
     ${TYPE} \
