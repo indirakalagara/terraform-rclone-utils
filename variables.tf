@@ -1,7 +1,7 @@
 variable "name" {
   type        = string
   description = "Type of the provider"
-  
+  default     = ""
 }
 
 variable "type" {
