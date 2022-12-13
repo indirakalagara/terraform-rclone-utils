@@ -6,7 +6,6 @@ locals {
     access_key_id = var.access_key_id
     secret_access_key = var.secret_access_key
     endpoint = var.endpoint
-
     bin_dir        = module.setup_clis.bin_dir
     name = var.name
     rcaction=var.rcaction
